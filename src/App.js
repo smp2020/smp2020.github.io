@@ -27,14 +27,14 @@ class App extends Component {
         </ul>
         <p>You can click on the donation bid form below to bid on candidates! If you have a special request for <strong>any</strong> of the missions project candidates to complete, please click on the Special Bidding Form also below! Note that donations end 2 May 2020, Saturday 6:00 pm HKT and results will be announced 3 May 2020 during <a href={ this.state.churchUrl }>Sunday Celebration</a>. Information about the missions project can be found at our <a href={ this.state.smpUrl }>SMP 2020 page</a>. Happy Bidding!</p>
         <div className="py-2 text-center">
-            <img src="missions.jpg" className="w-50 rounded" alt="Missions photo."></img>
+            <img src="missions.jpg" className="w-50 rounded" alt="Missions team"></img>
         </div>
         <div className="btn-group">
-          <a href={ this.state.bidUrl } className="btn btn-primary" target="_blank">Bidding Form</a>
-          <a href={ this.state.specialUrl } className="btn btn-primary" target="_blank">Special Bidding Form</a>
+          <a href={ this.state.bidUrl } className="btn btn-primary" target="_blank" rel="noopener noreferrer">Bidding Form</a>
+          <a href={ this.state.specialUrl } className="btn btn-primary" target="_blank" rel="noopener noreferrer">Special Bidding Form</a>
         </div>
         <hr/>
-        <div class="alert alert-info" role="alert">
+        <div className="alert alert-info" role="alert">
           This leaderboard was last updated { this.state.lastUpdated }.
         </div>
         <Leaderboard weeks={ this.state.weeks.slice(0, this.state.currentWeek) }/>

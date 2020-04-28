@@ -12,7 +12,7 @@ class Activity extends Component {
       <div className="col-lg-6 p-1">
         <div className="card">
           <h4 className="card-header">{ this.props.activity }</h4>
-          <div className="card-body">
+          <div className="card-body table-responsive">
             <p>{ this.props.description }</p>
             <table className="table table-striped table-hover">
               <thead>
