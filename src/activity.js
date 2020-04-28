@@ -9,7 +9,7 @@ class Activity extends Component {
 
   render() {
     return (
-      <div className="col-md-6 p-1">
+      <div className="col-lg-6 p-1">
         <div className="card">
           <h4 className="card-header">{ this.props.activity }</h4>
           <div className="card-body">
