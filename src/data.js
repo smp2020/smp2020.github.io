@@ -19,7 +19,7 @@ const data = [
         { person: 'Grady Kusmulyadi', bid: 0 },
         { person: 'Iorwen Hans Leroy', bid: 0 },
         { person: 'Jacky Lee', bid: 0 },
-        { person: 'Matthew Lau', bid: 1000 },
+        { person: 'Matthew Lau', bid: 0 },
         { person: 'Peter Tseng', bid: 0 },
         { person: 'Wayne Chan', bid: 0 },
       ]
