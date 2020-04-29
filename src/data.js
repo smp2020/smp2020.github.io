@@ -7,7 +7,7 @@ const data = [
         { person: 'Andrea Kurniasari', bid: 0 },
         { person: 'Anne Hu', bid: 0 },
         { person: 'Chelsea Friscella', bid: 0 },
-        { person: 'Helen Oh', bid: 0 },
+        { person: 'Helen Oh', bid: 80 },
         { person: 'Nadya Christina', bid: 0 },
         { person: 'Rebecah Lin', bid: 0 },
       ]
@@ -29,7 +29,7 @@ const data = [
       description: 'Durian is well known for its stinkiness and surprisingly enough some people actually really enjoy it more than others. Some of our SMP participants will take on the challenge to eat the one of the most stinkiest fruits in the world.',
       leaderboard: [
         { person: 'Angelica Intan', bid: 0 },
-        { person: 'Pastor Bo Zhu', bid: 0 },
+        { person: 'Pastor Bo Zhu', bid: 20 },
         { person: 'Lim Her Yun', bid: 0 },
         { person: 'Jeremy Wong', bid: 0 },
         { person: 'Kelvin Lee', bid: 0 },
@@ -41,7 +41,7 @@ const data = [
       description: 'If talking to people normally wasn\'t hard enough, we will challenge SMP participants to try to carry normal conversations ONLY using song lyrics.',
       leaderboard: [
         { person: 'Angelica Intan', bid: 0 },
-        { person: 'Anne Hu', bid: 0 },
+        { person: 'Anne Hu', bid: 40 },
         { person: 'Iorwen Hans Leroy', bid: 0 },
         { person: 'Rainbow Lam', bid: 0 },
         { person: 'Rebecah Lin', bid: 0 },

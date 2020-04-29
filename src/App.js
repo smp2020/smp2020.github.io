@@ -5,7 +5,7 @@ import data from './data';
 
 class App extends Component {
   state = {
-    lastUpdated: '28 April 2020, 5:00 pm HKT',
+    lastUpdated: '29 April 2020, 8:00 pm HKT',
     currentWeek: 1,
     weeks: data,
     churchUrl: 'https://hongkong.hmcc.net/',
