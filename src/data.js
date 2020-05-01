@@ -11,7 +11,7 @@ const data = [
           { person: "Andrea Kurniasari", bid: 0 },
           { person: "Anne Hu", bid: 0 },
           { person: "Chelsea Friscella", bid: 0 },
-          { person: "Helen Oh", bid: 80 },
+          { person: "Helen Oh", bid: 70 },
           { person: "Nadya Christina", bid: 0 },
           { person: "Rebecah Lin", bid: 0 },
         ],
