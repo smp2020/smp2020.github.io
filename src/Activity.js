@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Activity extends Component {
   state = {
-    leaderboard: this.appendInfo(this.props.leaderboard.sort((a, b) =>
-      a.bid > b.bid ? -1 : 1
-    ))
+    leaderboard: this.appendInfo(
+      this.props.leaderboard.sort((a, b) => (a.bid > b.bid ? -1 : 1))
+    ),
   };
 
   render() {
     return (
       <div className="col-lg-6 p-1">
         <div className="card">
-          <h4 className="card-header">{ this.props.activity }</h4>
+          <h4 className="card-header">{this.props.activity}</h4>
           <div className="card-body table-responsive">
-            <p>{ this.props.description }</p>
+            <p>{this.props.description}</p>
             <table className="table table-striped table-hover">
               <thead>
                 <tr>
@@ -24,16 +24,14 @@ class Activity extends Component {
                 </tr>
               </thead>
               <tbody>
-                {
-                  this.state.leaderboard.map((row, idx) =>
-                    <tr key={ idx }>
-                      <td>{ row.ranking }</td>
-                      <td>{ row.person }</td>
-                      <td>${ row.bid }</td>
-                      <td>{ row.percentage }%</td>
-                    </tr>
-                  )
-                }
+                {this.state.leaderboard.map((row, idx) => (
+                  <tr key={idx}>
+                    <td>{row.ranking}</td>
+                    <td>{row.person}</td>
+                    <td>${row.bid}</td>
+                    <td>{row.percentage}%</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
@@ -52,8 +50,8 @@ class Activity extends Component {
       if (currBid !== prevBid) rank++;
       prevBid = currBid;
       item.ranking = rank;
-      item.percentage = totalBids !== 0
-        ? (item.bid / totalBids * 100).toFixed(2) : 0;
+      item.percentage =
+        totalBids !== 0 ? ((item.bid / totalBids) * 100).toFixed(2) : 0;
     }
     return leaderboard;
   }
