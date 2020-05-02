@@ -1,4 +1,4 @@
-const lastUpdated = "02 May 2020, 6:30 pm HKT";
+const lastUpdated = "02 May 2020, 7:06 pm HKT";
 const data = [
   {
     weekRange: "28 April - 3 May",
@@ -22,10 +22,10 @@ const data = [
           "Have you ever wondered what some of the guys in our team would look like with makeup on?",
         leaderboard: [
           { person: "Grady Kusmulyadi", bid: 230 },
-          { person: "Iorwen Hans Leroy", bid: 120 },
+          { person: "Iorwen Hans Leroy", bid: 320 },
           { person: "Jacky Lee", bid: 420 },
           { person: "Matthew Lau", bid: 300 },
-          { person: "Peter Tseng", bid: 660 },
+          { person: "Peter Tseng", bid: 1360 },
           { person: "Wayne Chan", bid: 520 },
         ],
       },
@@ -37,8 +37,8 @@ const data = [
           { person: "Angelica Intan", bid: 400 },
           { person: "Pastor Bo Zhu", bid: 160 },
           { person: "Lim Her Yun", bid: 40 },
-          { person: "Jeremy Wong", bid: 120 },
-          { person: "Kelvin Lee", bid: 80 },
+          { person: "Jeremy Wong", bid: 200 },
+          { person: "Kelvin Lee", bid: 180 },
           { person: "Wayne Chan", bid: 260 },
         ],
       },
@@ -49,7 +49,7 @@ const data = [
         leaderboard: [
           { person: "Angelica Intan", bid: 20 },
           { person: "Anne Hu", bid: 60 },
-          { person: "Iorwen Hans Leroy", bid: 620 },
+          { person: "Iorwen Hans Leroy", bid: 1120 },
           { person: "Rainbow Lam", bid: 230 },
           { person: "Rebecah Lin", bid: 40 },
           { person: "Yuk Chak Lam", bid: 120 },
