@@ -9,7 +9,7 @@ class App extends Component {
     weeks: data,
     churchUrl: "https://hongkong.hmcc.net/",
     smpUrl: "https://hongkong.hmcc.net/about/hmi/smp-2020/",
-    videoUrl: "https://www.youtube.com/embed/fFeg59qf6hU",
+    videoUrl: "https://www.youtube.com/embed/NEjLYylp34U",
     bidUrl: "https://forms.gle/raGL9NbQ4GnjzRVv6",
     specialUrl: "https://forms.gle/H1AjhGXmVub31t9XA",
   };
@@ -41,12 +41,15 @@ class App extends Component {
           about the missions project can be found at our{" "}
           <a href={this.state.smpUrl}>SMP 2020 page</a>. Happy Bidding!
         </p>
-        <div className="py-2 text-center">
-          <img
-            src="missions.jpg"
-            className="w-50 rounded"
-            alt="Missions team"
-          ></img>
+        <div className="row justify-content-center my-4">
+          <div className="embed-responsive embed-responsive-16by9 col-lg-8">
+            <iframe
+              title="intro-video"
+              className="embed-responsive-item"
+              src={this.state.videoUrl}
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
         <div className="btn-group">
           <a
@@ -79,9 +82,3 @@ class App extends Component {
 }
 
 export default App;
-
-//         <div className="row justify-content-center">
-//           <div className="embed-responsive embed-responsive-16by9 col-lg-6">
-//             <iframe title="intro-video" className="embed-responsive-item" src={ this.state.videoUrl } allowFullScreen></iframe>
-//           </div>
-//         </div>
