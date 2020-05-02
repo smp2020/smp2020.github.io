@@ -8,7 +8,7 @@ const data = [
         description:
           "Mukbang is a Korean eating show broadcasted online. For SMP participants, we will also be streaming mukbang online while also adding some spice (literally) for your entertainment.",
         leaderboard: [
-          { person: "Andrea Kurniasari", bid: 420 },
+          { person: "Andrea Kurniasari", bid: 620 },
           { person: "Anne Hu", bid: 40 },
           { person: "Chelsea Friscella", bid: 20 },
           { person: "Helen Oh", bid: 200 },
@@ -25,8 +25,8 @@ const data = [
           { person: "Iorwen Hans Leroy", bid: 120 },
           { person: "Jacky Lee", bid: 420 },
           { person: "Matthew Lau", bid: 300 },
-          { person: "Peter Tseng", bid: 120 },
-          { person: "Wayne Chan", bid: 80 },
+          { person: "Peter Tseng", bid: 660 },
+          { person: "Wayne Chan", bid: 520 },
         ],
       },
       {
@@ -39,7 +39,7 @@ const data = [
           { person: "Lim Her Yun", bid: 40 },
           { person: "Jeremy Wong", bid: 120 },
           { person: "Kelvin Lee", bid: 80 },
-          { person: "Wayne Chan", bid: 20 },
+          { person: "Wayne Chan", bid: 260 },
         ],
       },
       {
@@ -49,7 +49,7 @@ const data = [
         leaderboard: [
           { person: "Angelica Intan", bid: 20 },
           { person: "Anne Hu", bid: 60 },
-          { person: "Iorwen Hans Leroy", bid: 80 },
+          { person: "Iorwen Hans Leroy", bid: 620 },
           { person: "Rainbow Lam", bid: 230 },
           { person: "Rebecah Lin", bid: 40 },
           { person: "Yuk Chak Lam", bid: 120 },
