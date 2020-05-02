@@ -1,4 +1,4 @@
-const lastUpdated = "02 May 2020, 10:30 pm HKT";
+const lastUpdated = "02 May 2020, 10:50 pm HKT";
 const data = [
   {
     weekRange: "28 April - 3 May",
@@ -11,7 +11,7 @@ const data = [
           { person: "Andrea Kurniasari", bid: 720 },
           { person: "Anne Hu", bid: 40 },
           { person: "Chelsea Friscella", bid: 20 },
-          { person: "Helen Oh", bid: 200 },
+          { person: "Helen Oh", bid: 400 },
           { person: "Nadya Christina", bid: 130 },
           { person: "Rebecah Lin", bid: 20 },
         ],
@@ -24,9 +24,9 @@ const data = [
           { person: "Grady Kusmulyadi", bid: 270 },
           { person: "Iorwen Hans Leroy", bid: 320 },
           { person: "Jacky Lee", bid: 420 },
-          { person: "Matthew Lau", bid: 800 },
+          { person: "Matthew Lau", bid: 1935 },
           { person: "Peter Tseng", bid: 1360 },
-          { person: "Wayne Chan", bid: 1020 },
+          { person: "Wayne Chan", bid: 1220 },
         ],
       },
       {
