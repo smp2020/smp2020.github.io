@@ -1,4 +1,4 @@
-const lastUpdated = "02 May 2020, 5:00 pm HKT";
+const lastUpdated = "02 May 2020, 6:30 pm HKT";
 const data = [
   {
     weekRange: "28 April - 3 May",
