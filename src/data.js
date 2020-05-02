@@ -1,4 +1,4 @@
-const lastUpdated = "02 May 2020, 10:50 pm HKT";
+const lastUpdated = "02 May 2020, 11:00 pm HKT";
 const data = [
   {
     weekRange: "28 April - 3 May",
@@ -11,7 +11,7 @@ const data = [
           { person: "Andrea Kurniasari", bid: 720 },
           { person: "Anne Hu", bid: 40 },
           { person: "Chelsea Friscella", bid: 20 },
-          { person: "Helen Oh", bid: 400 },
+          { person: "Helen Oh", bid: 580 },
           { person: "Nadya Christina", bid: 130 },
           { person: "Rebecah Lin", bid: 20 },
         ],
@@ -24,9 +24,9 @@ const data = [
           { person: "Grady Kusmulyadi", bid: 270 },
           { person: "Iorwen Hans Leroy", bid: 320 },
           { person: "Jacky Lee", bid: 420 },
-          { person: "Matthew Lau", bid: 1935 },
-          { person: "Peter Tseng", bid: 1360 },
-          { person: "Wayne Chan", bid: 1220 },
+          { person: "Matthew Lau", bid: 3130 },
+          { person: "Peter Tseng", bid: 1860 },
+          { person: "Wayne Chan", bid: 1980 },
         ],
       },
       {
@@ -34,8 +34,8 @@ const data = [
         description:
           "Durian is well known for its stinkiness and surprisingly enough some people actually really enjoy it more than others. Some of our SMP participants will take on the challenge to eat the one of the most stinkiest fruits in the world.",
         leaderboard: [
-          { person: "Angelica Intan", bid: 400 },
-          { person: "Pastor Bo Zhu", bid: 620 },
+          { person: "Angelica Intan", bid: 700 },
+          { person: "Pastor Bo Zhu", bid: 640 },
           { person: "Lim Her Yun", bid: 40 },
           { person: "Jeremy Wong", bid: 200 },
           { person: "Kelvin Lee", bid: 180 },
@@ -49,7 +49,7 @@ const data = [
         leaderboard: [
           { person: "Angelica Intan", bid: 20 },
           { person: "Anne Hu", bid: 100 },
-          { person: "Iorwen Hans Leroy", bid: 1120 },
+          { person: "Iorwen Hans Leroy", bid: 1620 },
           { person: "Rainbow Lam", bid: 230 },
           { person: "Rebecah Lin", bid: 40 },
           { person: "Yuk Chak Lam", bid: 120 },
