@@ -1,4 +1,4 @@
-const lastUpdated = "02 May 2020, 8:40 pm HKT";
+const lastUpdated = "02 May 2020, 10:30 pm HKT";
 const data = [
   {
     weekRange: "28 April - 3 May",
@@ -21,12 +21,12 @@ const data = [
         description:
           "Have you ever wondered what some of the guys in our team would look like with makeup on?",
         leaderboard: [
-          { person: "Grady Kusmulyadi", bid: 230 },
+          { person: "Grady Kusmulyadi", bid: 270 },
           { person: "Iorwen Hans Leroy", bid: 320 },
           { person: "Jacky Lee", bid: 420 },
           { person: "Matthew Lau", bid: 800 },
           { person: "Peter Tseng", bid: 1360 },
-          { person: "Wayne Chan", bid: 820 },
+          { person: "Wayne Chan", bid: 1020 },
         ],
       },
       {
@@ -35,7 +35,7 @@ const data = [
           "Durian is well known for its stinkiness and surprisingly enough some people actually really enjoy it more than others. Some of our SMP participants will take on the challenge to eat the one of the most stinkiest fruits in the world.",
         leaderboard: [
           { person: "Angelica Intan", bid: 400 },
-          { person: "Pastor Bo Zhu", bid: 160 },
+          { person: "Pastor Bo Zhu", bid: 620 },
           { person: "Lim Her Yun", bid: 40 },
           { person: "Jeremy Wong", bid: 200 },
           { person: "Kelvin Lee", bid: 180 },
@@ -48,7 +48,7 @@ const data = [
           "If talking to people normally wasn't hard enough, we will challenge SMP participants to try to carry normal conversations ONLY using song lyrics.",
         leaderboard: [
           { person: "Angelica Intan", bid: 20 },
-          { person: "Anne Hu", bid: 60 },
+          { person: "Anne Hu", bid: 100 },
           { person: "Iorwen Hans Leroy", bid: 1120 },
           { person: "Rainbow Lam", bid: 230 },
           { person: "Rebecah Lin", bid: 40 },
